@@ -4,7 +4,7 @@ Experiments using DMN on the bAbI dataset. The code for the model can be found f
 [The paper for DMNs can be found here](https://arxiv.org/abs/1506.07285)
 
 ## Running
-The code can be run with the following:
+The model can be run with the following:
 ```bash
 python run.py -qt=1
 ```

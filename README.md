@@ -8,7 +8,7 @@ The code can be run with the following:
 ```bash
 python run.py -qt=1
 ```
-Where `qt` is the bAbI task to train and test the model on. Before doing this though, you need to ensure GloVe has been downloaded. Currently, there is a constant named `GLOVE_PATH` in the `dmn_model_glove.py` file that sets the path to the GloVe embeddings, and is currently set to the local directory. To use a different directory path, this will need to be modified.
+Where `qt` is the bAbI task to train and test the model on. Before doing this, you need to ensure GloVe has been downloaded. Currently, there is a constant named `GLOVE_PATH` in the `dmn_model_glove.py` file that sets the path to the GloVe embeddings, and is currently set to the local directory. To use a different directory path, this will need to be modified.
 
 #### Options
 All options for the model hyperparameters, train and test path, and glove embedding size, can be viewed with `python run.py --help`.

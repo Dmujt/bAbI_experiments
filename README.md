@@ -1,5 +1,5 @@
 # bAbI CSE 842 Project
-Experiments using DMN on the bAbI dataset. The code for the model can be found from this [https://github.com/DSKSD/DeepNLP-models-Pytorch/blob/master/notebooks/10.Dynamic-Memory-Network-for-Question-Answering.ipynb](PyTorch tutorial). I only made small modifications to include GloVe and experiment with hyperparameters for fine-tuning.
+Experiments using DMN on the bAbI dataset. The code for the model can be found from (this PyTorch tutorial)[https://github.com/DSKSD/DeepNLP-models-Pytorch/blob/master/notebooks/10.Dynamic-Memory-Network-for-Question-Answering.ipynb]. I only made small modifications to include GloVe and experiment with hyperparameters for fine-tuning.
 
 [The paper for DMNs can be found here](https://arxiv.org/abs/1506.07285)
 

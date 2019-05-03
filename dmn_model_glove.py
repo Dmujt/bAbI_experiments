@@ -382,6 +382,6 @@ def DMNGlovemodelRun(train_path, test_path, babi_task_num, batch_size, epochs, u
             print(acc)
     if out_acc >= 1:
         df = pd.DataFrame({'accuracy':accuracies})
-        df.to_csv('results/q' + babi_task_num + '_epoch_accuracies.csv' )
+        df.to_csv('q' + babi_task_num + '_epoch_accuracies.csv' )
     else:
         print(get_accuracy(model, NUM_EPISODE, test_data))

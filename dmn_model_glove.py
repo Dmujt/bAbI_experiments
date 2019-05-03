@@ -301,7 +301,7 @@ def DMNGlovemodelRun(train_path, test_path, babi_task_num, batch_size, epochs, u
         t[2] = prepare_sequence(t[2], word2index, use_glove).view(1, -1)
 
     embed_size = ebsize
-    GLOVE_PATH = "../../glove/glove.6B."+str(embed_size)+"d.txt"
+    GLOVE_PATH = "glove/glove.6B."+str(embed_size)+"d.txt"
 
     # INITIALIZE EMBEDDINGS TO RANDOM VALUES
     vocab_size = len(index2word)
